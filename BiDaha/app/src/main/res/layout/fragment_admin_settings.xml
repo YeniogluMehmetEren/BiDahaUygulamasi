@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Yönetici Paneli"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnYonetUser"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Kullanıcıları Yönet"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnYonetProduct"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="İlanları Yönet"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSiparisOnaylama"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Siparişleri Onayla"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAdminEkle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Yeni Hesap Oluştur"
+        android:textSize="18sp" />
+
+</LinearLayout>
