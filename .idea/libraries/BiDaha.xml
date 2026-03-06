@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BiDaha">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BiDaha.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
